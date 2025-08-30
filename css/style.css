@@ -55,7 +55,6 @@ body {
 }
 
 .section-name {
-  font-size: 16px;
   margin-left: 50px;
   margin-top: 20px;
 
@@ -563,9 +562,22 @@ header {
   }
 
   .menu-btn-box {
-    visibility: hidden;
-    opacity: 0;
-  }
+  height: 60px;
+  margin: 30px auto 0;
+}
+
+.menu-btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  align-content: center;
+  width: 200px;
+  height: 40px;
+}
+
+.menu-mark {
+  display: inline-block;
+}
 
   .menu-list-container {
     display: flex;

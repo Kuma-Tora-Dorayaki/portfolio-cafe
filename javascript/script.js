@@ -139,29 +139,3 @@ sectionName.forEach((els) => {
   });
 
 
-
-// const menuBtnAnimation = (menuOption) => {
-//   // 高さを数値に直す
-//   const targetHeight = menuListCont.scrollHeight + 'px';
-
-//   menuListCont.animate({
-//     opacity: [0, 1],
-//     height: ['0px', targetHeight]
-//   }, {
-//     duration: menuOption,
-//     easing: 'ease'
-//   });
-
-//   menuMark.animate({
-//     transform: ['rotate(0)', 'rotate(180deg)']
-//   }, {
-//     duration: menuOption,
-//     easing: 'ease'
-//   });
-// };
-
-// menuBtnBox.addEventListener('click', () => {
-//   menuBtnAnimation(1200);
-// });
-
-
