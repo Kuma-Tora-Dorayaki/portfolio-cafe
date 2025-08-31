@@ -21,27 +21,27 @@
 
 <body>
   <header>
-    <div class="header-container">
-      <div class="shop-name-box">
+    <div class="header__container">
+      <div class="shop-name__container">
         <a href="#" class="shop-name">Midori&nbsp;CAFE</a>
       </div>
-      <img src="img/menu-open.svg" class="menu-open" alt="menu[open]">
+      <img src="img/menu-open.svg" class="menu__open" alt="menu[open]">
     </div>
     <nav class="header-nav">
-        <a class="header-nav-menu-list" href="#about">about</a>
-        <a class="header-nav-menu-list" href="#menu">menu</a>
-        <a class="header-nav-menu-list" href="#access">access</a>
-        <a class="header-nav-menu-list" href="#contact">contact</a>
+        <a class="header-nav-menu__list" href="#about">about</a>
+        <a class="header-nav-menu__list" href="#menu">menu</a>
+        <a class="header-nav-menu__list" href="#access">access</a>
+        <a class="header-nav-menu__list" href="#contact">contact</a>
     </nav>
 
-    <div class="nav-menu-page nav-menu-open">
+    <div class="ham-menu-page">
         <img src="img/menu-close.svg" class="menu-close" alt="menu[close]">
         
-        <nav class="nav-menu">
-            <a class="nav-menu-list" href="#about">about</a>
-            <a class="nav-menu-list" href="#menu">menu</a>
-            <a class="nav-menu-list" href="#access">access</a>
-            <a class="nav-menu-list" href="#contact">contact</a>
+        <nav class="ham-menu">
+            <a class="ham-menu__list" href="#about">about</a>
+            <a class="ham-menu__list" href="#menu">menu</a>
+            <a class="ham-menu__list" href="#access">access</a>
+            <a class="ham-menu__list" href="#contact">contact</a>
         </nav>
     </div>
 
@@ -51,35 +51,37 @@
   <main>
     <!-- main visual -->
     <section id="main-visual">
-      <div class="main-v-container"></div>
+      <div class="main-visual__container"></div>
     </section>
 
     <!-- about -->
     <section id="about">
       <text class="section-name">about</text>
-
-      <div class="about-container">
-        <div class="about-box about-box-1">
+      <!--  about__block__1 -->
+      <div class="about__container">
+        <div class="about__block">
           <div class="about-img about-img-1"></div>
-          <div class="about-text-box">
+          <div class="about-text__container">
             <text class="about-text">
               text,てきすと、説明文、テキスト。text,てきすと、説明文、テキスト。text,てきすと、説明文、テキスト。text,てきすと、説明文、テキスト。コーヒーはハンドドリップで一杯ずつ丁寧に淹れます。
             </text>
           </div>
         </div>
 
-        <div class="about-box about-box-2">
+      <!--  about__block__2 -->
+        <div class="about__block">
           <div class="about-img about-img-2"></div>
-          <div class="about-text-box">
+          <div class="about-text__container">
             <text class="about-text">
               text,てきすと、説明文、テキスト。text,てきすと、説明文、テキスト。text,てきすと、説明文、テキスト。text,てきすと、説明文、テキスト。コーヒーに合う自慢のサンドイッチ。新鮮な野菜がたっぷり。
             </text>
           </div>
         </div>
         
-        <div class="about-box about-box-3">
+      <!--  about__block__3 -->
+        <div class="about__block">
           <div class="about-img about-img-3"></div>
-          <div class="about-text-box">
+          <div class="about-text__container">
             <text class="about-text">
               text,てきすと、説明文、テキスト。text,てきすと、説明文、テキスト。text,てきすと、説明文、テキスト。text,てきすと、説明文、テキスト。緑に囲まれた明るい店内。ゆったりと寛げる空間でリラックス。
             </text>
@@ -92,29 +94,30 @@
     <section id="menu">
       <text class="section-name">menu</text>
       <!-- with image -->
-      <div class="menu-container menu-cont-1">
-        <div class="menu-block">
+       <!-- menu__container__1 -->
+      <div class="menu__container">
+        <div class="menu__block">
           <div class="menu-img menu-img-1"></div>
-          <div class="menu-bck-text-box">
-            <text class="menu-bck-text">
+          <div class="menu-text__box">
+            <text class="menu-text">
               オリジナルブレンド<br>コーヒー<br>
               ¥500
             </text>
           </div>
         </div>
-        <div class="menu-block">
+        <div class="menu__block">
           <div class="menu-img menu-img-2"></div>
-          <div class="menu-bck-text-box">
-            <text class="menu-bck-text">
+          <div class="menu-text__box">
+            <text class="menu-text">
               ホットサンド<br>
               ¥800
             </text>
           </div>
         </div>
-        <div class="menu-block">
+        <div class="menu__block">
           <div class="menu-img menu-img-3"></div>
-          <div class="menu-bck-text-box">
-            <text class="menu-bck-text">
+          <div class="menu-text__box">
+            <text class="menu-text">
               フレッシュサラダ<br>
               ¥700
             </text>
@@ -122,11 +125,12 @@
         </div>
       </div>
 
-      <div class="menu-container menu-cont-2">
-        <div class="menu-block">
+       <!-- menu__container__2 -->
+      <div class="menu__container">
+        <div class="menu__block">
           <div class="menu-img menu-img-4"></div>
-          <div class="menu-bck-text-box">
-            <text class="menu-bck-text">
+          <div class="menu-text__box">
+            <text class="menu-text">
               ホットサンド  セット<br>
               （コーヒー・サラダ・<br>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;スープ付き）<br>
@@ -134,20 +138,20 @@
             </text>
           </div>
         </div>
-        <div class="menu-block">
+        <div class="menu__block">
           <div class="menu-img menu-img-5"></div>
-            <div class="menu-bck-text-box">
-              <text class="menu-bck-text">
+            <div class="menu-text__box">
+              <text class="menu-text">
                 自家製チーズケーキ<br>
                 ¥650
               </text>
             </div>
         </div>
-        <div class="menu-block">
+        <div class="menu__block">
           <div class="menu-img menu-img-6"></div>
           <!-- <img src="img/no-revisions-gA81ZTsql68-unsplash (1).jpg" alt="menu-img-6" class="menu-img"> -->
-          <div class="menu-bck-text-box">
-            <text class="menu-bck-text">
+          <div class="menu-text__box">
+            <text class="menu-text">
               オーガニック<br>
               ハーブティー<br>
               ¥500
@@ -157,50 +161,24 @@
       </div>
 
       <!-- no image -->
-      <div class="menu-list-container menu-li-co-1">
-        <text class="menu-list-cont-title">drink</text>
-        <div class="menu-list-box">
-          <ul class="menu-list-block">
+      <div class="menu-list__container">
+        <text class="menu-list-title">drink</text>
+        <div class="menu-list__block">
+          <ul class="menu-list__box">
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
           </ul>
-          <ul class="menu-list-block">
+          <ul class="menu-list__box">
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
           </ul>
-          <ul class="menu-list-block">
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-          </ul>
-        </div>
-      </div>
-      <div class="menu-list-container menu-li-co-2">
-        <text class="menu-list-cont-title">food</text>
-        <div class="menu-list-box">
-          <ul class="menu-list-block">
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-          </ul>
-          <ul class="menu-list-block">
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
-          </ul>
-          <ul class="menu-list-block">
+          <ul class="menu-list__box">
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
@@ -209,24 +187,50 @@
           </ul>
         </div>
       </div>
-      <div class="menu-list-container menu-li-co-3">
-        <text class="menu-list-cont-title">sweets</text>
-        <div class="menu-list-box">
-          <ul class="menu-list-block">
+      <div class="menu-list__container">
+        <text class="menu-list-title">food</text>
+        <div class="menu-list__block">
+          <ul class="menu-list__box">
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
           </ul>
-          <ul class="menu-list-block">
+          <ul class="menu-list__box">
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
           </ul>
-          <ul class="menu-list-block">
+          <ul class="menu-list__box">
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu-list__container">
+        <text class="menu-list-title">sweets</text>
+        <div class="menu-list__block">
+          <ul class="menu-list__box">
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+          </ul>
+          <ul class="menu-list__box">
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+            <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
+          </ul>
+          <ul class="menu-list__box">
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
             <li class="menu-list">メニューメニュー&nbsp;&nbsp;：&nbsp;&nbsp;￥〇〇〇</li>
@@ -236,7 +240,7 @@
         </div>
       </div>
 
-      <div class="menu-btn-box">
+      <div class="menu-btn__container">
         <div class="menu-btn">
           メニュー&nbsp;&nbsp;<text class="menu-mark">▼</text>
         </div>
@@ -247,19 +251,19 @@
      <section id="access">
       <text class="section-name">access</text>
 
-      <div class="access-container">
+      <div class="access__container">
         <iframe id="access-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.4192218399876!2d141.54671747668942!3d42.99050637114132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f74d32a13d184eb%3A0x45116373da143c3d!2z44Ko44K544Kz44Oz44OV44Kj44O844Or44OJSE9LS0FJRE8!5e0!3m2!1sja!2sjp!4v1745358721549!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        <div class="access-text-box acs-text-box-1">
-          <text class="access-text acs-text-1">
+        <div class="access-text__block">
+          <text class="access-text">
             〒〇〇〇-〇〇〇〇<br>
             ●●県△△市<br>
             ▲▲町◇◇55-66
           </text>
         </div>
 
-        <div class="access-text-box acs-text-box-2">
-          <text class="access-text acs-text-2">
+        <div class="access-text__block">
+          <text class="access-text">
             〇〇駅から徒歩で５分<br>
             ●●公園が目印
           </text>
@@ -271,17 +275,17 @@
       <section id="contact">
         <text class="section-name">contact</text>
 
-        <div class="contact-container">
-          <div class="contact-text-container">
-            <text class="contact-text ct-text-1">
+        <div class="contact__container">
+          <div class="contact-text__block">
+            <text class="contact-text">
               TEL : 0000-11-2222
             </text>
-            <text class="contact-text ct-text-2">
+            <text class="contact-text">
               e-mail : ****************.com
             </text>
           </div>
 
-          <div class="recruit">
+          <div class="recruit__block">
             <img class="recruit-img" src="img/brooke-cagle-9fHMo1-5Io8-unsplash.jpg" alt="recruit-img">
             <text class="recruit-text">
               スタッフ募集中<br><br>
@@ -299,7 +303,7 @@
   <footer>
       <text class="shop-name">Midori&nbsp;CAFE</text>
 
-      <div class="sns-container">
+      <div class="sns__container">
         <a href="https://www.instagram.com/" class="sns-icon"><img src="img/teenyicons_instagram-outline.svg" alt=""></a>
         <a href="https://www.facebook.com/?locale=ja_JP" class="sns-icon"><img src="img/teenyicons_facebook-outline.svg" alt=""></a>
         <a href="https://twitter.com/" class="sns-icon"><img src="img/Vector.svg" alt=""></a>

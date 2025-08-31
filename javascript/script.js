@@ -1,17 +1,17 @@
-const menuOpen = document.querySelector('.menu-open');
+const menuOpen = document.querySelector('.menu__open');
 const menuClose = document.querySelector('.menu-close');
-const navMenuPage = document.querySelector('.nav-menu-page');
-const navMenu = document.querySelector('.nav-menu');
-const navMenuList = document.querySelectorAll('.nav-menu-list');
-const headerNavMenuList = document.querySelectorAll('.header-nav-menu-list');
+const hamMenuPage = document.querySelector('.ham-menu-page');
+const hamMenu= document.querySelector('.ham-menu');
+const hamMenuList = document.querySelectorAll('.ham-menu__list');
+const headerNavMenuList = document.querySelectorAll('.header-nav-menu__list');
 const header = document.querySelector('header');
 const headerHeight = header.offsetHeight;
 const sectionName = document.querySelectorAll('.section-name');
-const menuListCont = document.querySelectorAll('.menu-list-container');
-const menuBtnBox = document.querySelector('.menu-btn-box');
+const menuListCont = document.querySelectorAll('.menu-list__container');
+const menuBtnContaianer = document.querySelector('.menu-btn__container');
 const menuBtn = document.querySelector('.menu-btn');
 const menuMark = document.querySelector('.menu-mark');
-
+const menu = document.querySelector('#menu');
 
 const menuOpenTime = 480;
 const menuCloseTime = 480;
@@ -30,7 +30,7 @@ const menuCloseOptions = {
 };
 
   const menuAnimation = (menuOption) => {
-    navMenuPage.animate({
+    hamMenuPage.animate({
       opacity: ['0', '1'],
       visibility: ['hidden', 'visible'],
       left: ['100vw', '0']
@@ -68,7 +68,7 @@ const menuClick = (el, menuOption) => {
   });
 }
 
-menuClick(navMenuList, menuCloseOptions);
+menuClick(hamMenuList, menuCloseOptions);
 menuClick(headerNavMenuList);
 
 //  scroll animation ===============================================
@@ -109,10 +109,10 @@ sectionName.forEach((els) => {
   }
 
   const menuBtnOptionsRevers = {
-    direction: 'reverse',
     duration: 600,
     easing: 'ease-out',
     fill: 'forwards',
+    direction: 'reverse',
   }
 
   const menuBtnAnimation = (option) => {
@@ -134,6 +134,7 @@ sectionName.forEach((els) => {
       menuBtnAnimation(menuBtnOptions);
     } else {
       menuBtnAnimation(menuBtnOptionsRevers);
+      smoothSc(menu, 600);
     }
     isOpen = !isOpen;
   });
