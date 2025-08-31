@@ -108,20 +108,35 @@ sectionName.forEach((els) => {
     fill: 'forwards',
   }
 
+  const menuBtnOptionsOpacity = {
+    duration: 900,
+    easing: 'ease-in',
+    fill: 'forwards',
+  }
+
   const menuBtnOptionsRevers = {
     duration: 600,
+    easing: 'ease-in',
+    fill: 'forwards',
+    direction: 'reverse',
+  }
+
+  const menuBtnOptionsReversOpacity = {
+    duration: 300,
     easing: 'ease-out',
     fill: 'forwards',
     direction: 'reverse',
   }
 
-  const menuBtnAnimation = (option) => {
+  const menuBtnAnimation = (option, option__2) => {
     menuListCont.forEach((el) => {
       el.animate({
         visibility: ['hidden', 'visible'],
         height: ['0', 'auto'],
-        opacity: ['0', '1'],
       }, option);
+      el.animate({
+        opacity: ['0', '1'],
+      }, option__2);
     });
 
     menuMark.animate({
@@ -131,10 +146,10 @@ sectionName.forEach((els) => {
 
   menuBtn.addEventListener('click', () => {
     if(!isOpen) {
-      menuBtnAnimation(menuBtnOptions);
+      menuBtnAnimation(menuBtnOptions, menuBtnOptionsOpacity);
     } else {
-      menuBtnAnimation(menuBtnOptionsRevers);
-      smoothSc(menu, 600);
+      menuBtnAnimation(menuBtnOptionsRevers, menuBtnOptionsReversOpacity);
+      smoothSc(menu, 900);
     }
     isOpen = !isOpen;
   });
