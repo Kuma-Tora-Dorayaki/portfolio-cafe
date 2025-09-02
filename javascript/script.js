@@ -149,7 +149,7 @@ sectionName.forEach((els) => {
       menuBtnAnimation(menuBtnOptions, menuBtnOptionsOpacity);
     } else {
       menuBtnAnimation(menuBtnOptionsRevers, menuBtnOptionsReversOpacity);
-      smoothSc(menu, 1200);
+      smoothSc(menu, 1000);
     }
     isOpen = !isOpen;
   });
