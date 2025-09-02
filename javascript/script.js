@@ -115,8 +115,8 @@ sectionName.forEach((els) => {
   }
 
   const menuBtnOptionsRevers = {
-    duration: 600,
-    easing: 'ease-in',
+    duration: 480,
+    easing: 'ease',
     fill: 'forwards',
     direction: 'reverse',
   }
