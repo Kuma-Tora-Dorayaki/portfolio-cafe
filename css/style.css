@@ -279,7 +279,7 @@ header {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 17px;
   color: var(--text-color);
   display: inline-block;
@@ -375,7 +375,7 @@ header {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   color: var(--text-color);
   width: 100%;
@@ -465,7 +465,7 @@ header {
   font-family: var(--text-font);
   font-style: italic;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 28px;
   text-align: center;
   color: var(--text-color);
@@ -482,7 +482,7 @@ header {
   font-family: var(--text-font);
   color: var(--shop-name-color);
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   text-align: center;
   background: #FFF8DC;
@@ -662,7 +662,7 @@ header {
   color: var(--text-color);
   font-family: var(--text-font);
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   text-align: center;
 }
@@ -680,7 +680,7 @@ header {
   }
 
   .access-text {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 30px;
   }
 
@@ -770,7 +770,7 @@ header {
   font-family: var(--main-font);
   font-style: italic;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 16px;
   display: flex;
   align-items: center;
@@ -882,7 +882,7 @@ footer {
 footer > .shop-name {
   font-style: italic;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .copy-right {
