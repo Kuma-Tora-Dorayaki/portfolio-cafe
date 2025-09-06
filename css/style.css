@@ -293,7 +293,8 @@ header {
 @media screen and (min-width: 600px) {
   .about__container {
   margin-top: 40px;
-}
+  }
+
   .about__block {
     width: 100%;
     display: flex;
@@ -301,13 +302,17 @@ header {
     aspect-ratio: 1050 / 320;
   }
 
+  .about__block:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
   .about-img {
-    width: 55%;
+    width: 50%;
     height: auto;
   }
 
   .about-text__container {
-    width: 45%;
+    width: 50%;
     align-content: center;
     container-type: inline-size;
   }
@@ -317,6 +322,17 @@ header {
     margin-left: 20px;
     font-size: 16px;
     line-height: 22px;
+  }
+
+  .about__block:nth-child(even) .about-text__container {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 0;
+  }
+
+  .about__block:nth-child(even) .about-text {
+    margin-right: 20px;
+    
   }
 
   @container (min-width: 300px) {
