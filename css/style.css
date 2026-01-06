@@ -129,12 +129,14 @@ header {
   align-content: center;
 }
 
-.shop-name:hover {
-  text-decoration-line: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-color: var(--shop-name-color);
-  text-underline-offset: 10px;
-  text-decoration-skip-ink: auto; 
+@media (hover: hover) and (pointer: fine) {
+  .shop-name:hover {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--shop-name-color);
+    text-underline-offset: 10px;
+    text-decoration-skip-ink: auto;
+  }
 }
 
 .header-nav {
@@ -162,12 +164,14 @@ header {
   align-items: center;
 }
 
-.header-nav-menu__list:hover {
-  text-decoration-line: underline;
-  text-decoration-thickness: 1px;
-  text-decoration-color: var(--shop-name-color);
-  text-underline-offset: 6px;
-  text-decoration-skip-ink: auto; 
+@media (hover: hover) and (pointer: fine) {
+  .header-nav-menu__list:hover {
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: var(--shop-name-color);
+    text-underline-offset: 6px;
+    text-decoration-skip-ink: auto;
+  }
 }
 
 .ham-menu-page {
